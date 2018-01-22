@@ -15,7 +15,7 @@ result = test_result.find_one(query)
 
 print(result)
 
-with(open('new 1.html', mode="r", encoding="UTF8")) as f:
+with(open('templates\\new 1.html', mode="r", encoding="UTF8")) as f:
     file1 = f.read()
 print(file1)
 
