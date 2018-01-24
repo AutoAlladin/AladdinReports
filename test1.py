@@ -23,7 +23,7 @@ if __name__ =="__main__" :
 
     if db_result["results"] is not None:
             for items in db_result["results"]:
-                tTxt = get_report(tIt, params3)
+                tTxt += get_report(tIt, params3)
 
 
     params3 = dict(items=tTxt)
