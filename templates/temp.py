@@ -7,5 +7,5 @@ def prepare_temlate(path):
 
     return Template(file1)
 
-def get_report(template, uuuuu):
+def get_treport(template, uuuuu):
     return template.substitute(uuuuu)
