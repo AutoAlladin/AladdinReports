@@ -7,8 +7,8 @@ from db.Utils import get_MD_collection, get_result
 
 if __name__ =="__main__" :
     coll = get_MD_collection()
-    db_result = get_result(coll, id="5a65fdfdf7764837a4554458")
-    #db_result = get_result(coll, maxdate=True)
+    #db_result = get_result(coll, id="5a65fdfdf7764837a4554458")
+    db_result = get_result(coll, maxdate=True)
     tBase = prepare_temlate('baseinfo.html')
     tRun = prepare_temlate('run_info.html')
     tRes = prepare_temlate('all_result.html')
